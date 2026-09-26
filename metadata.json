@@ -1,0 +1,8 @@
+{
+  "name": "Studio Aurea",
+  "description": "SaaS multi-tenant de agendamento e gestão para Studios de beleza",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

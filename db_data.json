@@ -1,0 +1,2071 @@
+{
+  "studios": [
+    {
+      "id": "default-studio",
+      "name": "Studio Aurea",
+      "slug": "studio-aurea",
+      "active": true,
+      "license_expires_at": null,
+      "created_at": "2026-09-26T20:10:40.751Z"
+    },
+    {
+      "id": "studio-meu-id",
+      "name": "Meu Studio",
+      "slug": "meu-studio",
+      "active": true,
+      "license_expires_at": "2030-01-01T00:00:00Z",
+      "created_at": "2026-09-26T20:10:40.751Z"
+    },
+    {
+      "id": "fac9e7bd-03e1-47cc-b12b-369a7cc692a3",
+      "name": "Studio Teste Autenticado",
+      "slug": "studio-teste-autenticado-361",
+      "active": true,
+      "license_expires_at": null,
+      "created_at": "2026-09-26T20:29:53.608Z"
+    },
+    {
+      "id": "b831f874-f1e6-4e39-8a16-7170d391e2bf",
+      "name": "Studio Beleza Natural",
+      "slug": "studio-beleza-natural",
+      "active": true,
+      "license_expires_at": null,
+      "created_at": "2026-09-26T20:29:53.744Z"
+    },
+    {
+      "id": "54ad3aa0-41a0-4018-bdff-b801dec83804",
+      "name": "Studio Elegance VIP",
+      "slug": "studio-elegance-vip-810",
+      "active": true,
+      "license_expires_at": null,
+      "created_at": "2026-09-26T20:30:37.369Z"
+    },
+    {
+      "id": "a5e5156f-0cc0-40cd-9d05-70197e04ef78",
+      "name": "Studio Beauty Express",
+      "slug": "studio-beauty-express",
+      "active": true,
+      "license_expires_at": null,
+      "created_at": "2026-09-26T20:30:37.503Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "user-super-admin-id",
+      "name": "Douglas (Super Admin)",
+      "email": "dvssystem@hotmail.com",
+      "phone": "",
+      "phone_digits": "",
+      "password_hash": "$2a$10$sO2t2/e.PEjaAyIKvRHVVOjCYWRLZatZf5DD6h.s4NOkNpzA1D0yi",
+      "role": "super_admin",
+      "studio_id": null,
+      "created_at": "2026-09-26T20:10:40.881Z"
+    },
+    {
+      "id": "user-super-admin-doug-id",
+      "name": "Douglas (Super Admin)",
+      "email": "dougaodvs@gmail.com",
+      "phone": "",
+      "phone_digits": "",
+      "password_hash": "$2a$10$sO2t2/e.PEjaAyIKvRHVVOjCYWRLZatZf5DD6h.s4NOkNpzA1D0yi",
+      "role": "super_admin",
+      "studio_id": null,
+      "created_at": "2026-09-26T20:10:40.881Z"
+    },
+    {
+      "id": "user-manager-meu-id",
+      "name": "Gerente Meu Studio",
+      "email": "gerente@meustudio.com",
+      "phone": "11999990000",
+      "phone_digits": "11999990000",
+      "password_hash": "$2a$10$CY68Bel0DlvVV7AAJeV4OuRr50tJKKqjhG3IOZligGSrLd0T23lf2",
+      "role": "manager",
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:10:41.003Z"
+    },
+    {
+      "id": "pro-ana-id",
+      "name": "Ana Souza",
+      "email": "ana@meustudio.com",
+      "phone": "11988889999",
+      "phone_digits": "11988889999",
+      "password_hash": "$2a$10$RVpjF0wDJvgqPfrMClnKNuuub17tBIWRnhbYssrC9ikTgVu7RJ6ZK",
+      "role": "professional",
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:10:41.106Z"
+    },
+    {
+      "id": "client-carla-id",
+      "name": "Carla Dias",
+      "email": "carla@exemplo.com",
+      "phone": "11988887777",
+      "phone_digits": "11988887777",
+      "password_hash": "$2a$10$OO8BX2VgUzSmxHNd4tSFxevr.t2wt0nqAo7j8o87.XbZ4Zch/jf0u",
+      "role": "client",
+      "studio_id": "studio-meu-id",
+      "referral_code": "CARLA1020",
+      "referral_rewarded": false,
+      "created_at": "2026-09-26T20:10:41.204Z"
+    },
+    {
+      "id": "user-manager-aurea-id",
+      "name": "Gerente Studio Aurea",
+      "email": "gerente@studio.com",
+      "phone": "11988880000",
+      "phone_digits": "11988880000",
+      "password_hash": "$2a$10$FhGNhsFueoWx3giQ6ssAFOIpNnugajXTLYugiEWm0.1zG.NK1FL5K",
+      "role": "manager",
+      "studio_id": "default-studio",
+      "created_at": "2026-09-26T20:10:41.310Z"
+    },
+    {
+      "id": "pro-patricia-id",
+      "name": "Patrícia Lima",
+      "email": "patricia@studio.com",
+      "phone": "11977778888",
+      "phone_digits": "11977778888",
+      "password_hash": "$2a$10$madx1QDlVXcQ2jENo6lb6ORFabKb5CUdP4QtmP3iRm6Y3P6tzrbc.",
+      "role": "professional",
+      "studio_id": "default-studio",
+      "created_at": "2026-09-26T20:10:41.438Z"
+    },
+    {
+      "id": "744e87aa-97b4-456f-9da8-cf59362337bc",
+      "name": "Duda",
+      "email": "duda@test.com",
+      "phone": "11911110001",
+      "phone_digits": "11911110001",
+      "password_hash": "$2a$10$.sab9ILYJ0OtMGhbiAlUAuF/2.SHr4EZMaKdmLYycjAr8zm0CLm9a",
+      "role": "professional",
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:21:36.196Z"
+    },
+    {
+      "id": "041632b3-7719-4369-94b8-006626285783",
+      "name": "Joyce",
+      "email": "joyce@test.com",
+      "phone": "11922220002",
+      "phone_digits": "11922220002",
+      "password_hash": "$2a$10$tyF7HE3pf/sDCOQzeYC8WOsnDGnla0l2cvKZOUhjIdhrfdngrYk7S",
+      "role": "professional",
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:21:36.303Z"
+    },
+    {
+      "id": "b1464b54-37b4-45e3-be07-91510e67c731",
+      "name": "Dyanna",
+      "email": "dyanna@test.com",
+      "phone": "11933330003",
+      "phone_digits": "11933330003",
+      "password_hash": "$2a$10$timxwNdeM9vL.ZgOGJmtUOVsMnLDVnPLdsArVhwtlBQatBdnNIf6C",
+      "role": "professional",
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:21:36.408Z"
+    },
+    {
+      "id": "2483cff6-424e-4824-b117-068c32f968fa",
+      "name": "Douglas",
+      "email": null,
+      "phone": "11999998888",
+      "phone_digits": "11999998888",
+      "password_hash": "$2a$10$SFtk1ITgUEMBPxD8WjLirOqTHhrXB7AWA77Zvz8XfaxWDdNYspdpK",
+      "role": "client",
+      "studio_id": "default-studio",
+      "referred_by": null,
+      "referral_rewarded": false,
+      "referral_code": "DOUG1222",
+      "created_at": "2026-09-26T20:21:36.514Z"
+    },
+    {
+      "id": "f0bb9bdf-d31e-4b5e-a085-0121cf67021b",
+      "name": "Duda",
+      "email": "duda_10948@test.com",
+      "phone": "119111110948",
+      "phone_digits": "119111110948",
+      "password_hash": "$2a$10$bCsdNha/k3.6vmSxt0tRjOl/ou4d2CCcwqDrYpO6gIH8kNQGrDcZu",
+      "role": "professional",
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:21:51.077Z"
+    },
+    {
+      "id": "f5f0d015-90d6-4b76-bb4a-14f5c1f16555",
+      "name": "Joyce",
+      "email": "joyce_10948@test.com",
+      "phone": "119222210948",
+      "phone_digits": "119222210948",
+      "password_hash": "$2a$10$za8Z2bEt8SdWbUW93dVcueJnd.4j7AUONDs1NlS6lX58Ndn5fPG.m",
+      "role": "professional",
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:21:51.184Z"
+    },
+    {
+      "id": "678d88e2-aa65-4fc4-ab05-eec974cf61ec",
+      "name": "Dyanna",
+      "email": "dyanna_10948@test.com",
+      "phone": "119333310948",
+      "phone_digits": "119333310948",
+      "password_hash": "$2a$10$PbdfQtqRkyRHR7A2L5zMluOx7OF/XmSTgE3XCbpJNMpJfUTbyBF0i",
+      "role": "professional",
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:21:51.292Z"
+    },
+    {
+      "id": "3ec50b51-e844-4768-b5c5-5bb9e63dc170",
+      "name": "Douglas",
+      "email": null,
+      "phone": "119888810948",
+      "phone_digits": "119888810948",
+      "password_hash": "$2a$10$s2zA4W4zqg30Cj.KeQmq7.net2.cXQcKfIKT/Qc/P.R.deUx3KkbG",
+      "role": "client",
+      "studio_id": "default-studio",
+      "referred_by": null,
+      "referral_rewarded": false,
+      "referral_code": "DOUG7012",
+      "created_at": "2026-09-26T20:21:51.404Z"
+    },
+    {
+      "id": "3a9a0876-b719-4d59-8186-5ad536754d0b",
+      "name": "Duda",
+      "email": "duda_30293@test.com",
+      "phone": "119111130293",
+      "phone_digits": "119111130293",
+      "password_hash": "$2a$10$24t1mHoHCezEbQp6AHOaMu/f9OGnCqnKeEiwGg0gIAeLGreWGa61a",
+      "role": "professional",
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:22:10.405Z"
+    },
+    {
+      "id": "78ed02ce-567c-4c55-896c-244d04b2561d",
+      "name": "Joyce",
+      "email": "joyce_30293@test.com",
+      "phone": "119222230293",
+      "phone_digits": "119222230293",
+      "password_hash": "$2a$10$GyFT.lTVpBXaliplUi3afOUmee/oT/0mImHgTsQ2jsELo8hO9/Y9y",
+      "role": "professional",
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:22:10.532Z"
+    },
+    {
+      "id": "eddf3e90-41c0-4beb-a965-0c6cb40e0bc7",
+      "name": "Dyanna",
+      "email": "dyanna_30293@test.com",
+      "phone": "119333330293",
+      "phone_digits": "119333330293",
+      "password_hash": "$2a$10$wjjS8dEYggFqRWmDQ3yp6OJfVwooj6u0J65Tw8J2M9DZ3VSVKK2O.",
+      "role": "professional",
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:22:10.642Z"
+    },
+    {
+      "id": "11fb6889-5733-4392-a65e-859e5b710adf",
+      "name": "Douglas",
+      "email": null,
+      "phone": "119888830293",
+      "phone_digits": "119888830293",
+      "password_hash": "$2a$10$FimxKRVta01Wt/uRWtHa..cIg/mhJlhlvUuxhSJCEXsaGgpYjayaW",
+      "role": "client",
+      "studio_id": "default-studio",
+      "referred_by": null,
+      "referral_rewarded": false,
+      "referral_code": "DOUG6532",
+      "created_at": "2026-09-26T20:22:10.761Z"
+    },
+    {
+      "id": "1781e96a-80db-46da-a2d7-1b174e60b3e4",
+      "name": "Duda",
+      "email": "duda_38066@test.com",
+      "phone": "119111138066",
+      "phone_digits": "119111138066",
+      "password_hash": "$2a$10$ikj01Z1/n0AEhBghPi9p1.DjJBc.s3fEXEyGOdH/RkEt.70gElutq",
+      "role": "professional",
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:22:18.180Z"
+    },
+    {
+      "id": "6641f409-0b20-4d00-917e-fb11f15c2c6b",
+      "name": "Joyce",
+      "email": "joyce_38066@test.com",
+      "phone": "119222238066",
+      "phone_digits": "119222238066",
+      "password_hash": "$2a$10$FAepgUe8JZuiI62tEdMMdufCtnf0hfUkp3gvXKus5ShDMbttM8QOS",
+      "role": "professional",
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:22:18.287Z"
+    },
+    {
+      "id": "5930fa2d-07d2-4558-ab1b-afbc4391d280",
+      "name": "Dyanna",
+      "email": "dyanna_38066@test.com",
+      "phone": "119333338066",
+      "phone_digits": "119333338066",
+      "password_hash": "$2a$10$vyE45Pn5/R/66j5k1oe5pu1ebAmr9.liQOb9/h6.NZo7gu6AWZLv6",
+      "role": "professional",
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:22:18.392Z"
+    },
+    {
+      "id": "7b65bf2e-e13e-438d-afb4-28b6abff95b0",
+      "name": "Douglas",
+      "email": null,
+      "phone": "119888838066",
+      "phone_digits": "119888838066",
+      "password_hash": "$2a$10$OWWUxDR5TLQ5crI.1Y4SFenv7WtT6NdSPI3vg7lZ4e2XExi4SGlmO",
+      "role": "client",
+      "studio_id": "default-studio",
+      "referred_by": null,
+      "referral_rewarded": false,
+      "referral_code": "DOUG9086",
+      "created_at": "2026-09-26T20:22:18.497Z"
+    },
+    {
+      "id": "5309b228-ebf3-47d0-ba5a-8f125a939278",
+      "name": "Duda",
+      "email": "duda_87641@test.com",
+      "phone": "119111187641",
+      "phone_digits": "119111187641",
+      "password_hash": "$2a$10$rcmZ9KCQYDARNZa/MGrjF.LcdQHbDx/mwmwEmi8wWO.jA1jbEgNHy",
+      "role": "professional",
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:23:07.803Z"
+    },
+    {
+      "id": "7f09214d-54ca-4649-a49f-970ecdc001f8",
+      "name": "Joyce",
+      "email": "joyce_87641@test.com",
+      "phone": "119222287641",
+      "phone_digits": "119222287641",
+      "password_hash": "$2a$10$XRrnT4JJe/gPGz74wI3qduVEKsGecvhd9bUcltTPWwxvLv3O0yvuG",
+      "role": "professional",
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:23:07.920Z"
+    },
+    {
+      "id": "8ef430f8-9b13-4df5-ac18-dfcf3197f96a",
+      "name": "Dyanna",
+      "email": "dyanna_87641@test.com",
+      "phone": "119333387641",
+      "phone_digits": "119333387641",
+      "password_hash": "$2a$10$fP/NoHimQKrBZitMV/qca.8.Yyksufl8YZvbuAXfKwfyTf5ihfTXe",
+      "role": "professional",
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:23:08.032Z"
+    },
+    {
+      "id": "1d507fdd-aeed-41d1-a2f3-aff6090c43bf",
+      "name": "Douglas",
+      "email": null,
+      "phone": "119888887641",
+      "phone_digits": "119888887641",
+      "password_hash": "$2a$10$lYqzOfO.Dqv7YIBRYov5J.7N8nakbINijJrkdKpgsnvcqftrURix2",
+      "role": "client",
+      "studio_id": "default-studio",
+      "referred_by": null,
+      "referral_rewarded": false,
+      "referral_code": "DOUG8941",
+      "created_at": "2026-09-26T20:23:08.143Z"
+    },
+    {
+      "id": "778b79cc-4e81-4291-b7ca-9d804b13ceb2",
+      "name": "Douglas Gerente",
+      "email": "gerente_teste_1790454593601@test.com",
+      "phone": "11988887777",
+      "phone_digits": "11988887777",
+      "password_hash": "$2a$10$PYYp3LKunBYuVw.Wv79xqeVff/ETzVb1./kaR5.MegZYV1KVwoJce",
+      "role": "manager",
+      "studio_id": "fac9e7bd-03e1-47cc-b12b-369a7cc692a3",
+      "created_at": "2026-09-26T20:29:53.734Z"
+    },
+    {
+      "id": "005c9070-5f8f-4e02-828a-e807523c2b2d",
+      "name": "Maria Proprietaria",
+      "email": "maria_1790454593737@test.com",
+      "phone": "11977776666",
+      "phone_digits": "11977776666",
+      "password_hash": "$2a$10$4BrFkBQCJMs0KYFYHoqaOOVwZdLRB2lCKNFYbgkDtlpXLncYIGyaG",
+      "role": "manager",
+      "studio_id": "b831f874-f1e6-4e39-8a16-7170d391e2bf",
+      "created_at": "2026-09-26T20:29:53.852Z"
+    },
+    {
+      "id": "d3b726ac-d00c-43c8-9a12-3e038c86a2f5",
+      "name": "Douglas Manager",
+      "email": "douglas_vip_1790454637363@test.com",
+      "phone": "11988881234",
+      "phone_digits": "11988881234",
+      "password_hash": "$2a$10$xJDtVB21xlCgCSX74XxsCeycISgj.FkXmrws5doRTQI059dI0IBYW",
+      "role": "manager",
+      "studio_id": "54ad3aa0-41a0-4018-bdff-b801dec83804",
+      "created_at": "2026-09-26T20:30:37.488Z"
+    },
+    {
+      "id": "ab3fe822-bf02-4070-9765-8fc35b421c8a",
+      "name": "Camila Dono",
+      "email": "camila_1790454637500@test.com",
+      "phone": "11999995555",
+      "phone_digits": "11999995555",
+      "password_hash": "$2a$10$IlRUIWbTaztMgIkFj81uJ.vKHv0F06VCuaItjxcS7GFOfRDnFWwbK",
+      "role": "manager",
+      "studio_id": "a5e5156f-0cc0-40cd-9d05-70197e04ef78",
+      "created_at": "2026-09-26T20:30:37.616Z"
+    }
+  ],
+  "professionals": [
+    {
+      "id": "pro-ana-id",
+      "name": "Ana Souza",
+      "email": "ana@meustudio.com",
+      "phone": "11988889999",
+      "specialty": "Design de Sobrancelha & Micropigmentação",
+      "photo_url": "",
+      "service_ids": [
+        "svc-sobrancelha-id"
+      ],
+      "working_hours": {
+        "mon": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": false
+        },
+        "tue": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": false
+        },
+        "wed": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": false
+        },
+        "thu": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": false
+        },
+        "fri": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": false
+        },
+        "sat": {
+          "open": "09:00",
+          "close": "15:00",
+          "closed": false
+        },
+        "sun": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": true
+        }
+      },
+      "can_create_coupons": true,
+      "signal_percent": 30,
+      "active": true,
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:10:41.438Z"
+    },
+    {
+      "id": "pro-patricia-id",
+      "name": "Patrícia Lima",
+      "email": "patricia@studio.com",
+      "phone": "11977778888",
+      "specialty": "Cabelos e Penteados",
+      "photo_url": "",
+      "service_ids": [
+        "svc-cabelo-id"
+      ],
+      "working_hours": {
+        "mon": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": false
+        },
+        "tue": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": false
+        },
+        "wed": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": false
+        },
+        "thu": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": false
+        },
+        "fri": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": false
+        },
+        "sat": {
+          "open": "09:00",
+          "close": "15:00",
+          "closed": false
+        },
+        "sun": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": true
+        }
+      },
+      "can_create_coupons": true,
+      "signal_percent": 30,
+      "active": true,
+      "studio_id": "default-studio",
+      "created_at": "2026-09-26T20:10:41.438Z"
+    },
+    {
+      "id": "744e87aa-97b4-456f-9da8-cf59362337bc",
+      "name": "Duda",
+      "email": "duda@test.com",
+      "phone": "11911110001",
+      "specialty": "",
+      "photo_url": "",
+      "service_ids": [
+        "ed6b6bc8-3c65-45f7-acae-664376b2916e"
+      ],
+      "working_hours": {},
+      "can_create_coupons": false,
+      "signal_percent": 30,
+      "active": true,
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:21:36.196Z"
+    },
+    {
+      "id": "041632b3-7719-4369-94b8-006626285783",
+      "name": "Joyce",
+      "email": "joyce@test.com",
+      "phone": "11922220002",
+      "specialty": "",
+      "photo_url": "",
+      "service_ids": [
+        "64450176-c3e3-4061-985d-9917815b5a36"
+      ],
+      "working_hours": {},
+      "can_create_coupons": false,
+      "signal_percent": 30,
+      "active": true,
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:21:36.303Z"
+    },
+    {
+      "id": "b1464b54-37b4-45e3-be07-91510e67c731",
+      "name": "Dyanna",
+      "email": "dyanna@test.com",
+      "phone": "11933330003",
+      "specialty": "",
+      "photo_url": "",
+      "service_ids": [
+        "064ca014-2071-47fb-aa77-2969b8361740"
+      ],
+      "working_hours": {},
+      "can_create_coupons": false,
+      "signal_percent": 30,
+      "active": true,
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:21:36.408Z"
+    },
+    {
+      "id": "f0bb9bdf-d31e-4b5e-a085-0121cf67021b",
+      "name": "Duda",
+      "email": "duda_10948@test.com",
+      "phone": "119111110948",
+      "specialty": "",
+      "photo_url": "",
+      "service_ids": [
+        "07dee5fb-a234-40ac-9098-d0d523a4f2a3"
+      ],
+      "working_hours": {},
+      "can_create_coupons": false,
+      "signal_percent": 30,
+      "active": true,
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:21:51.077Z"
+    },
+    {
+      "id": "f5f0d015-90d6-4b76-bb4a-14f5c1f16555",
+      "name": "Joyce",
+      "email": "joyce_10948@test.com",
+      "phone": "119222210948",
+      "specialty": "",
+      "photo_url": "",
+      "service_ids": [
+        "2dcb592d-abe0-4dcc-a8e2-695af82db5bd"
+      ],
+      "working_hours": {},
+      "can_create_coupons": false,
+      "signal_percent": 30,
+      "active": true,
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:21:51.184Z"
+    },
+    {
+      "id": "678d88e2-aa65-4fc4-ab05-eec974cf61ec",
+      "name": "Dyanna",
+      "email": "dyanna_10948@test.com",
+      "phone": "119333310948",
+      "specialty": "",
+      "photo_url": "",
+      "service_ids": [
+        "b571327a-6241-4d95-aa76-d5d9304b108e"
+      ],
+      "working_hours": {},
+      "can_create_coupons": false,
+      "signal_percent": 30,
+      "active": true,
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:21:51.292Z"
+    },
+    {
+      "id": "3a9a0876-b719-4d59-8186-5ad536754d0b",
+      "name": "Duda",
+      "email": "duda_30293@test.com",
+      "phone": "119111130293",
+      "specialty": "",
+      "photo_url": "",
+      "service_ids": [
+        "9f7ea26b-49c6-41da-bd96-3313f3e988af"
+      ],
+      "working_hours": {},
+      "can_create_coupons": false,
+      "signal_percent": 30,
+      "active": true,
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:22:10.405Z"
+    },
+    {
+      "id": "78ed02ce-567c-4c55-896c-244d04b2561d",
+      "name": "Joyce",
+      "email": "joyce_30293@test.com",
+      "phone": "119222230293",
+      "specialty": "",
+      "photo_url": "",
+      "service_ids": [
+        "fe10294f-bfe1-405d-ba59-808779ce6d75"
+      ],
+      "working_hours": {},
+      "can_create_coupons": false,
+      "signal_percent": 30,
+      "active": true,
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:22:10.532Z"
+    },
+    {
+      "id": "eddf3e90-41c0-4beb-a965-0c6cb40e0bc7",
+      "name": "Dyanna",
+      "email": "dyanna_30293@test.com",
+      "phone": "119333330293",
+      "specialty": "",
+      "photo_url": "",
+      "service_ids": [
+        "878e284f-fec8-45b0-9ebd-ecb1916bea90"
+      ],
+      "working_hours": {},
+      "can_create_coupons": false,
+      "signal_percent": 30,
+      "active": true,
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:22:10.642Z"
+    },
+    {
+      "id": "1781e96a-80db-46da-a2d7-1b174e60b3e4",
+      "name": "Duda",
+      "email": "duda_38066@test.com",
+      "phone": "119111138066",
+      "specialty": "",
+      "photo_url": "",
+      "service_ids": [
+        "80f1ebbd-b556-4fc1-90cb-cdc8514a5448"
+      ],
+      "working_hours": {},
+      "can_create_coupons": false,
+      "signal_percent": 30,
+      "active": true,
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:22:18.180Z"
+    },
+    {
+      "id": "6641f409-0b20-4d00-917e-fb11f15c2c6b",
+      "name": "Joyce",
+      "email": "joyce_38066@test.com",
+      "phone": "119222238066",
+      "specialty": "",
+      "photo_url": "",
+      "service_ids": [
+        "35a147e1-afc0-4322-96f6-210575dcbc78"
+      ],
+      "working_hours": {},
+      "can_create_coupons": false,
+      "signal_percent": 30,
+      "active": true,
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:22:18.287Z"
+    },
+    {
+      "id": "5930fa2d-07d2-4558-ab1b-afbc4391d280",
+      "name": "Dyanna",
+      "email": "dyanna_38066@test.com",
+      "phone": "119333338066",
+      "specialty": "",
+      "photo_url": "",
+      "service_ids": [
+        "25d6c83b-2553-4664-beae-8792305249ee"
+      ],
+      "working_hours": {},
+      "can_create_coupons": false,
+      "signal_percent": 30,
+      "active": true,
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:22:18.392Z"
+    },
+    {
+      "id": "5309b228-ebf3-47d0-ba5a-8f125a939278",
+      "name": "Duda",
+      "email": "duda_87641@test.com",
+      "phone": "119111187641",
+      "specialty": "",
+      "photo_url": "",
+      "service_ids": [
+        "bca77be3-338b-4d6f-b13d-d376e174a438"
+      ],
+      "working_hours": {},
+      "can_create_coupons": false,
+      "signal_percent": 30,
+      "active": true,
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:23:07.803Z"
+    },
+    {
+      "id": "7f09214d-54ca-4649-a49f-970ecdc001f8",
+      "name": "Joyce",
+      "email": "joyce_87641@test.com",
+      "phone": "119222287641",
+      "specialty": "",
+      "photo_url": "",
+      "service_ids": [
+        "6aca5f79-04a4-4073-ac89-a7a7d180d63a"
+      ],
+      "working_hours": {},
+      "can_create_coupons": false,
+      "signal_percent": 30,
+      "active": true,
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:23:07.920Z"
+    },
+    {
+      "id": "8ef430f8-9b13-4df5-ac18-dfcf3197f96a",
+      "name": "Dyanna",
+      "email": "dyanna_87641@test.com",
+      "phone": "119333387641",
+      "specialty": "",
+      "photo_url": "",
+      "service_ids": [
+        "abf4fc84-cec7-4e97-a383-6e8186e1a535"
+      ],
+      "working_hours": {},
+      "can_create_coupons": false,
+      "signal_percent": 30,
+      "active": true,
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:23:08.032Z"
+    }
+  ],
+  "services": [
+    {
+      "id": "svc-sobrancelha-id",
+      "name": "Design de Sobrancelha",
+      "duration_min": 45,
+      "cleanup_min": 15,
+      "price": 65,
+      "description": "Design com visagismo facial e alinhamento",
+      "image_url": "",
+      "active": true,
+      "professional_ids": [
+        "pro-ana-id"
+      ],
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:10:41.438Z"
+    },
+    {
+      "id": "svc-cabelo-id",
+      "name": "Corte e Escova",
+      "duration_min": 60,
+      "cleanup_min": 15,
+      "price": 120,
+      "description": "Corte especializado com finalização",
+      "image_url": "",
+      "active": true,
+      "professional_ids": [
+        "pro-patricia-id"
+      ],
+      "studio_id": "default-studio",
+      "created_at": "2026-09-26T20:10:41.438Z"
+    },
+    {
+      "id": "ed6b6bc8-3c65-45f7-acae-664376b2916e",
+      "name": "Manicure",
+      "duration_min": 45,
+      "cleanup_min": 0,
+      "price": 50,
+      "description": "",
+      "image_url": "",
+      "active": true,
+      "professional_ids": [],
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:21:36.074Z"
+    },
+    {
+      "id": "64450176-c3e3-4061-985d-9917815b5a36",
+      "name": "Corte",
+      "duration_min": 60,
+      "cleanup_min": 0,
+      "price": 90,
+      "description": "",
+      "image_url": "",
+      "active": true,
+      "professional_ids": [],
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:21:36.080Z"
+    },
+    {
+      "id": "064ca014-2071-47fb-aa77-2969b8361740",
+      "name": "Cílios",
+      "duration_min": 90,
+      "cleanup_min": 0,
+      "price": 150,
+      "description": "",
+      "image_url": "",
+      "active": true,
+      "professional_ids": [],
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:21:36.085Z"
+    },
+    {
+      "id": "2d8d3fb1-9ac0-44e6-b615-ba8146de757b",
+      "name": "Manicure",
+      "duration_min": 45,
+      "cleanup_min": 0,
+      "price": 50,
+      "description": "",
+      "image_url": "",
+      "active": true,
+      "professional_ids": [],
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:21:44.375Z"
+    },
+    {
+      "id": "0bd83c48-ef73-41c7-ae62-a602bda0c062",
+      "name": "Corte",
+      "duration_min": 60,
+      "cleanup_min": 0,
+      "price": 90,
+      "description": "",
+      "image_url": "",
+      "active": true,
+      "professional_ids": [],
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:21:44.383Z"
+    },
+    {
+      "id": "643ccc89-7d6c-4f1b-806c-2b4b45d1cbd0",
+      "name": "Cílios",
+      "duration_min": 90,
+      "cleanup_min": 0,
+      "price": 150,
+      "description": "",
+      "image_url": "",
+      "active": true,
+      "professional_ids": [],
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:21:44.389Z"
+    },
+    {
+      "id": "07dee5fb-a234-40ac-9098-d0d523a4f2a3",
+      "name": "Manicure",
+      "duration_min": 45,
+      "cleanup_min": 0,
+      "price": 50,
+      "description": "",
+      "image_url": "",
+      "active": true,
+      "professional_ids": [
+        "f0bb9bdf-d31e-4b5e-a085-0121cf67021b"
+      ],
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:21:50.933Z"
+    },
+    {
+      "id": "2dcb592d-abe0-4dcc-a8e2-695af82db5bd",
+      "name": "Corte",
+      "duration_min": 60,
+      "cleanup_min": 0,
+      "price": 90,
+      "description": "",
+      "image_url": "",
+      "active": true,
+      "professional_ids": [
+        "f5f0d015-90d6-4b76-bb4a-14f5c1f16555"
+      ],
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:21:50.940Z"
+    },
+    {
+      "id": "b571327a-6241-4d95-aa76-d5d9304b108e",
+      "name": "Cílios",
+      "duration_min": 90,
+      "cleanup_min": 0,
+      "price": 150,
+      "description": "",
+      "image_url": "",
+      "active": true,
+      "professional_ids": [
+        "678d88e2-aa65-4fc4-ab05-eec974cf61ec"
+      ],
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:21:50.946Z"
+    },
+    {
+      "id": "9f7ea26b-49c6-41da-bd96-3313f3e988af",
+      "name": "Manicure",
+      "duration_min": 45,
+      "cleanup_min": 0,
+      "price": 50,
+      "description": "",
+      "image_url": "",
+      "active": true,
+      "professional_ids": [
+        "3a9a0876-b719-4d59-8186-5ad536754d0b"
+      ],
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:22:10.272Z"
+    },
+    {
+      "id": "fe10294f-bfe1-405d-ba59-808779ce6d75",
+      "name": "Corte",
+      "duration_min": 60,
+      "cleanup_min": 0,
+      "price": 90,
+      "description": "",
+      "image_url": "",
+      "active": true,
+      "professional_ids": [
+        "78ed02ce-567c-4c55-896c-244d04b2561d"
+      ],
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:22:10.281Z"
+    },
+    {
+      "id": "878e284f-fec8-45b0-9ebd-ecb1916bea90",
+      "name": "Cílios",
+      "duration_min": 90,
+      "cleanup_min": 0,
+      "price": 150,
+      "description": "",
+      "image_url": "",
+      "active": true,
+      "professional_ids": [
+        "eddf3e90-41c0-4beb-a965-0c6cb40e0bc7"
+      ],
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:22:10.290Z"
+    },
+    {
+      "id": "80f1ebbd-b556-4fc1-90cb-cdc8514a5448",
+      "name": "Manicure",
+      "duration_min": 45,
+      "cleanup_min": 0,
+      "price": 50,
+      "description": "",
+      "image_url": "",
+      "active": true,
+      "professional_ids": [
+        "1781e96a-80db-46da-a2d7-1b174e60b3e4"
+      ],
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:22:18.053Z"
+    },
+    {
+      "id": "35a147e1-afc0-4322-96f6-210575dcbc78",
+      "name": "Corte",
+      "duration_min": 60,
+      "cleanup_min": 0,
+      "price": 90,
+      "description": "",
+      "image_url": "",
+      "active": true,
+      "professional_ids": [
+        "6641f409-0b20-4d00-917e-fb11f15c2c6b"
+      ],
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:22:18.059Z"
+    },
+    {
+      "id": "25d6c83b-2553-4664-beae-8792305249ee",
+      "name": "Cílios",
+      "duration_min": 90,
+      "cleanup_min": 0,
+      "price": 150,
+      "description": "",
+      "image_url": "",
+      "active": true,
+      "professional_ids": [
+        "5930fa2d-07d2-4558-ab1b-afbc4391d280"
+      ],
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:22:18.064Z"
+    },
+    {
+      "id": "bca77be3-338b-4d6f-b13d-d376e174a438",
+      "name": "Manicure",
+      "duration_min": 45,
+      "cleanup_min": 0,
+      "price": 50,
+      "description": "",
+      "image_url": "",
+      "active": true,
+      "professional_ids": [
+        "5309b228-ebf3-47d0-ba5a-8f125a939278"
+      ],
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:23:07.619Z"
+    },
+    {
+      "id": "6aca5f79-04a4-4073-ac89-a7a7d180d63a",
+      "name": "Corte",
+      "duration_min": 60,
+      "cleanup_min": 0,
+      "price": 90,
+      "description": "",
+      "image_url": "",
+      "active": true,
+      "professional_ids": [
+        "7f09214d-54ca-4649-a49f-970ecdc001f8"
+      ],
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:23:07.629Z"
+    },
+    {
+      "id": "abf4fc84-cec7-4e97-a383-6e8186e1a535",
+      "name": "Cílios",
+      "duration_min": 90,
+      "cleanup_min": 0,
+      "price": 150,
+      "description": "",
+      "image_url": "",
+      "active": true,
+      "professional_ids": [
+        "8ef430f8-9b13-4df5-ac18-dfcf3197f96a"
+      ],
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:23:07.638Z"
+    }
+  ],
+  "settings": [
+    {
+      "id": "settings-meu-id",
+      "key": "studio",
+      "studio_id": "studio-meu-id",
+      "name": "Meu Studio",
+      "logo_url": "/uploads/studio-aurea/logos/de790ae2-762f-4e4e-8b48-fb646662b16e.png",
+      "address": "Rua das Flores, 123 - Centro",
+      "phone": "(11) 98888-0000",
+      "whatsapp": "11988880000",
+      "email": "contato@meustudio.com",
+      "opening_hours": {
+        "mon": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": false
+        },
+        "tue": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": false
+        },
+        "wed": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": false
+        },
+        "thu": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": false
+        },
+        "fri": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": false
+        },
+        "sat": {
+          "open": "09:00",
+          "close": "15:00",
+          "closed": false
+        },
+        "sun": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": true
+        }
+      },
+      "default_signal_percent": 30,
+      "referral_enabled": true,
+      "referral_discount_percent": 10,
+      "created_at": "2026-09-26T20:10:41.438Z"
+    },
+    {
+      "id": "settings-aurea-id",
+      "key": "studio",
+      "studio_id": "default-studio",
+      "name": "Studio Aurea",
+      "logo_url": "/uploads/studio-aurea/logos/de790ae2-762f-4e4e-8b48-fb646662b16e.png",
+      "address": "Av. Paulista, 1000 - Bela Vista",
+      "phone": "(11) 97777-0000",
+      "whatsapp": "11977770000",
+      "email": "contato@studioaurea.com",
+      "opening_hours": {
+        "mon": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": false
+        },
+        "tue": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": false
+        },
+        "wed": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": false
+        },
+        "thu": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": false
+        },
+        "fri": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": false
+        },
+        "sat": {
+          "open": "09:00",
+          "close": "15:00",
+          "closed": false
+        },
+        "sun": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": true
+        }
+      },
+      "default_signal_percent": 30,
+      "referral_enabled": true,
+      "referral_discount_percent": 10,
+      "created_at": "2026-09-26T20:10:41.438Z"
+    },
+    {
+      "id": "a4d1a837-9764-41ab-9623-bd626be2fbb2",
+      "key": "studio",
+      "studio_id": "fac9e7bd-03e1-47cc-b12b-369a7cc692a3",
+      "name": "Studio Teste Autenticado",
+      "logo_url": "",
+      "address": "",
+      "phone": "11988887777",
+      "whatsapp": "11988887777",
+      "email": "gerente_teste_1790454593601@test.com",
+      "opening_hours": {
+        "mon": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": false
+        },
+        "tue": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": false
+        },
+        "wed": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": false
+        },
+        "thu": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": false
+        },
+        "fri": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": false
+        },
+        "sat": {
+          "open": "09:00",
+          "close": "15:00",
+          "closed": false
+        },
+        "sun": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": true
+        }
+      },
+      "default_signal_percent": 30,
+      "referral_enabled": true,
+      "referral_discount_percent": 10,
+      "created_at": "2026-09-26T20:29:53.734Z"
+    },
+    {
+      "id": "0aa46a0d-4bb0-4dca-98c2-3b80b1a65911",
+      "key": "studio",
+      "studio_id": "b831f874-f1e6-4e39-8a16-7170d391e2bf",
+      "name": "Studio Beleza Natural",
+      "slug": "studio-beleza-natural",
+      "logo_url": "",
+      "address": "",
+      "phone": "11977776666",
+      "whatsapp": "11977776666",
+      "email": "maria_1790454593737@test.com",
+      "opening_hours": {
+        "mon": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": false
+        },
+        "tue": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": false
+        },
+        "wed": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": false
+        },
+        "thu": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": false
+        },
+        "fri": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": false
+        },
+        "sat": {
+          "open": "09:00",
+          "close": "15:00",
+          "closed": false
+        },
+        "sun": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": true
+        }
+      },
+      "default_signal_percent": 30,
+      "referral_enabled": true,
+      "referral_discount_percent": 10,
+      "created_at": "2026-09-26T20:29:53.852Z"
+    },
+    {
+      "id": "d6c31371-d330-44fc-ae9a-e91df4602e37",
+      "key": "studio",
+      "studio_id": "54ad3aa0-41a0-4018-bdff-b801dec83804",
+      "name": "Studio Elegance VIP",
+      "logo_url": "",
+      "address": "",
+      "phone": "11988881234",
+      "whatsapp": "11988881234",
+      "email": "douglas_vip_1790454637363@test.com",
+      "opening_hours": {
+        "mon": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": false
+        },
+        "tue": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": false
+        },
+        "wed": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": false
+        },
+        "thu": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": false
+        },
+        "fri": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": false
+        },
+        "sat": {
+          "open": "09:00",
+          "close": "15:00",
+          "closed": false
+        },
+        "sun": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": true
+        }
+      },
+      "default_signal_percent": 30,
+      "referral_enabled": true,
+      "referral_discount_percent": 10,
+      "created_at": "2026-09-26T20:30:37.488Z"
+    },
+    {
+      "id": "0bea6adf-8c85-43ef-887d-2b6227ee13f2",
+      "key": "studio",
+      "studio_id": "a5e5156f-0cc0-40cd-9d05-70197e04ef78",
+      "name": "Studio Beauty Express",
+      "slug": "studio-beauty-express",
+      "logo_url": "",
+      "address": "",
+      "phone": "11999995555",
+      "whatsapp": "11999995555",
+      "email": "camila_1790454637500@test.com",
+      "opening_hours": {
+        "mon": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": false
+        },
+        "tue": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": false
+        },
+        "wed": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": false
+        },
+        "thu": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": false
+        },
+        "fri": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": false
+        },
+        "sat": {
+          "open": "09:00",
+          "close": "15:00",
+          "closed": false
+        },
+        "sun": {
+          "open": "09:00",
+          "close": "18:00",
+          "closed": true
+        }
+      },
+      "default_signal_percent": 30,
+      "referral_enabled": true,
+      "referral_discount_percent": 10,
+      "created_at": "2026-09-26T20:30:37.616Z"
+    }
+  ],
+  "gallery": [],
+  "blocks": [],
+  "coupons": [
+    {
+      "id": "coupon-boas-vindas",
+      "code": "BOASVINDAS",
+      "discount_percent": 15,
+      "scope": "studio",
+      "professional_id": null,
+      "service_ids": [],
+      "min_value": 0,
+      "max_uses": 100,
+      "uses": 0,
+      "active": true,
+      "studio_id": "studio-meu-id",
+      "created_at": "2026-09-26T20:10:41.438Z"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "54de28fd-dd00-4e90-b899-d1756966b5b8",
+      "client_id": "2483cff6-424e-4824-b117-068c32f968fa",
+      "client_name": "Douglas",
+      "client_phone": "11999998888",
+      "items": [
+        {
+          "id": "c184216d-70f7-48a4-860b-e6ac3137266d",
+          "professional_id": "744e87aa-97b4-456f-9da8-cf59362337bc",
+          "service_id": "ed6b6bc8-3c65-45f7-acae-664376b2916e",
+          "start": "2026-10-01T10:00:00Z",
+          "status": "waiting"
+        },
+        {
+          "id": "de85ecc6-567d-40e1-8471-d9fc4c1ac631",
+          "professional_id": "041632b3-7719-4369-94b8-006626285783",
+          "service_id": "64450176-c3e3-4061-985d-9917815b5a36",
+          "start": "2026-10-01T11:00:00Z",
+          "status": "waiting"
+        },
+        {
+          "id": "c04fa976-c4a6-4527-a54e-a9750467d431",
+          "professional_id": "b1464b54-37b4-45e3-be07-91510e67c731",
+          "service_id": "064ca014-2071-47fb-aa77-2969b8361740",
+          "start": "2026-10-01T14:00:00Z",
+          "status": "waiting"
+        }
+      ],
+      "status": "waiting",
+      "quick": false,
+      "forced": false,
+      "coupon_code": null,
+      "discount": 0,
+      "notes": "",
+      "signal_paid": false,
+      "created_by": "2483cff6-424e-4824-b117-068c32f968fa",
+      "created_at": "2026-09-26T20:21:36.526Z",
+      "studio_id": "default-studio"
+    },
+    {
+      "id": "5449bfcf-ed32-447f-908d-102f6fcad7fb",
+      "booking_group_id": "ddf329d5-80f8-4d18-b4de-117e73b9f23d",
+      "client_id": "3ec50b51-e844-4768-b5c5-5bb9e63dc170",
+      "client_name": "Douglas",
+      "client_phone": "119888810948",
+      "professional_id": "f0bb9bdf-d31e-4b5e-a085-0121cf67021b",
+      "items": [
+        {
+          "id": "4a9771a5-9e0f-49de-bda5-3151c5313a5c",
+          "professional_id": "f0bb9bdf-d31e-4b5e-a085-0121cf67021b",
+          "service_id": "07dee5fb-a234-40ac-9098-d0d523a4f2a3",
+          "start": "2026-10-01T10:00:00Z",
+          "status": "waiting"
+        }
+      ],
+      "status": "waiting",
+      "quick": false,
+      "forced": false,
+      "coupon_code": null,
+      "discount": 0,
+      "notes": "",
+      "signal_paid": false,
+      "created_by": "3ec50b51-e844-4768-b5c5-5bb9e63dc170",
+      "created_at": "2026-09-26T20:21:51.413Z",
+      "studio_id": "default-studio"
+    },
+    {
+      "id": "5c2b1fd7-3fab-4641-b64d-80db0b1e964f",
+      "booking_group_id": "ddf329d5-80f8-4d18-b4de-117e73b9f23d",
+      "client_id": "3ec50b51-e844-4768-b5c5-5bb9e63dc170",
+      "client_name": "Douglas",
+      "client_phone": "119888810948",
+      "professional_id": "f5f0d015-90d6-4b76-bb4a-14f5c1f16555",
+      "items": [
+        {
+          "id": "7be30ce2-4dd1-426d-9603-09364de0ee59",
+          "professional_id": "f5f0d015-90d6-4b76-bb4a-14f5c1f16555",
+          "service_id": "2dcb592d-abe0-4dcc-a8e2-695af82db5bd",
+          "start": "2026-10-01T11:00:00Z",
+          "status": "waiting"
+        }
+      ],
+      "status": "waiting",
+      "quick": false,
+      "forced": false,
+      "coupon_code": null,
+      "discount": 0,
+      "notes": "",
+      "signal_paid": false,
+      "created_by": "3ec50b51-e844-4768-b5c5-5bb9e63dc170",
+      "created_at": "2026-09-26T20:21:51.414Z",
+      "studio_id": "default-studio"
+    },
+    {
+      "id": "eedc81e9-5da1-4622-87bf-f2c00ae39735",
+      "booking_group_id": "ddf329d5-80f8-4d18-b4de-117e73b9f23d",
+      "client_id": "3ec50b51-e844-4768-b5c5-5bb9e63dc170",
+      "client_name": "Douglas",
+      "client_phone": "119888810948",
+      "professional_id": "678d88e2-aa65-4fc4-ab05-eec974cf61ec",
+      "items": [
+        {
+          "id": "98ac36ff-26a8-4fef-a84e-7528b3d239fe",
+          "professional_id": "678d88e2-aa65-4fc4-ab05-eec974cf61ec",
+          "service_id": "b571327a-6241-4d95-aa76-d5d9304b108e",
+          "start": "2026-10-01T14:00:00Z",
+          "status": "waiting"
+        }
+      ],
+      "status": "waiting",
+      "quick": false,
+      "forced": false,
+      "coupon_code": null,
+      "discount": 0,
+      "notes": "",
+      "signal_paid": false,
+      "created_by": "3ec50b51-e844-4768-b5c5-5bb9e63dc170",
+      "created_at": "2026-09-26T20:21:51.414Z",
+      "studio_id": "default-studio"
+    },
+    {
+      "id": "8b5a15ff-5de1-4686-8bdd-4a2fc6a23376",
+      "booking_group_id": "f811a0ce-7cc0-4632-8378-f0c4564f632f",
+      "client_id": "11fb6889-5733-4392-a65e-859e5b710adf",
+      "client_name": "Douglas",
+      "client_phone": "119888830293",
+      "professional_id": "3a9a0876-b719-4d59-8186-5ad536754d0b",
+      "items": [
+        {
+          "id": "00bd4706-02f0-4423-9631-4b8d833bd245",
+          "professional_id": "3a9a0876-b719-4d59-8186-5ad536754d0b",
+          "service_id": "9f7ea26b-49c6-41da-bd96-3313f3e988af",
+          "start": "2026-10-01T10:00:00Z",
+          "status": "waiting"
+        }
+      ],
+      "status": "waiting",
+      "quick": false,
+      "forced": false,
+      "coupon_code": null,
+      "discount": 0,
+      "notes": "",
+      "signal_paid": false,
+      "created_by": "11fb6889-5733-4392-a65e-859e5b710adf",
+      "created_at": "2026-09-26T20:22:10.774Z",
+      "studio_id": "studio-meu-id"
+    },
+    {
+      "id": "2bec7973-274a-4fa6-9ab8-632c9b6395cf",
+      "booking_group_id": "f811a0ce-7cc0-4632-8378-f0c4564f632f",
+      "client_id": "11fb6889-5733-4392-a65e-859e5b710adf",
+      "client_name": "Douglas",
+      "client_phone": "119888830293",
+      "professional_id": "78ed02ce-567c-4c55-896c-244d04b2561d",
+      "items": [
+        {
+          "id": "131431c6-0546-49f6-bad5-dcbb2781696a",
+          "professional_id": "78ed02ce-567c-4c55-896c-244d04b2561d",
+          "service_id": "fe10294f-bfe1-405d-ba59-808779ce6d75",
+          "start": "2026-10-01T11:00:00Z",
+          "status": "waiting"
+        }
+      ],
+      "status": "waiting",
+      "quick": false,
+      "forced": false,
+      "coupon_code": null,
+      "discount": 0,
+      "notes": "",
+      "signal_paid": false,
+      "created_by": "11fb6889-5733-4392-a65e-859e5b710adf",
+      "created_at": "2026-09-26T20:22:10.774Z",
+      "studio_id": "studio-meu-id"
+    },
+    {
+      "id": "5f9b44ec-4c4b-4604-a72d-793568459074",
+      "booking_group_id": "f811a0ce-7cc0-4632-8378-f0c4564f632f",
+      "client_id": "11fb6889-5733-4392-a65e-859e5b710adf",
+      "client_name": "Douglas",
+      "client_phone": "119888830293",
+      "professional_id": "eddf3e90-41c0-4beb-a965-0c6cb40e0bc7",
+      "items": [
+        {
+          "id": "51beb83e-8426-4073-bd4e-133cd7cb1c2f",
+          "professional_id": "eddf3e90-41c0-4beb-a965-0c6cb40e0bc7",
+          "service_id": "878e284f-fec8-45b0-9ebd-ecb1916bea90",
+          "start": "2026-10-01T14:00:00Z",
+          "status": "waiting"
+        }
+      ],
+      "status": "waiting",
+      "quick": false,
+      "forced": false,
+      "coupon_code": null,
+      "discount": 0,
+      "notes": "",
+      "signal_paid": false,
+      "created_by": "11fb6889-5733-4392-a65e-859e5b710adf",
+      "created_at": "2026-09-26T20:22:10.775Z",
+      "studio_id": "studio-meu-id"
+    },
+    {
+      "id": "fb158877-4daf-491c-8b04-dd93458190e0",
+      "booking_group_id": "52f5d577-e775-44ad-b211-cb03e327a486",
+      "client_id": "7b65bf2e-e13e-438d-afb4-28b6abff95b0",
+      "client_name": "Douglas",
+      "client_phone": "119888838066",
+      "professional_id": "1781e96a-80db-46da-a2d7-1b174e60b3e4",
+      "items": [
+        {
+          "id": "89a3b5c3-9633-4f49-b53c-ec87192ddc09",
+          "professional_id": "1781e96a-80db-46da-a2d7-1b174e60b3e4",
+          "service_id": "80f1ebbd-b556-4fc1-90cb-cdc8514a5448",
+          "start": "2026-10-01T10:00:00Z",
+          "status": "waiting"
+        }
+      ],
+      "status": "waiting",
+      "quick": false,
+      "forced": false,
+      "coupon_code": null,
+      "discount": 0,
+      "notes": "",
+      "signal_paid": false,
+      "created_by": "7b65bf2e-e13e-438d-afb4-28b6abff95b0",
+      "created_at": "2026-09-26T20:22:18.507Z",
+      "studio_id": "studio-meu-id"
+    },
+    {
+      "id": "52bffdb7-6115-495d-b3c5-57c53a0a1b18",
+      "booking_group_id": "52f5d577-e775-44ad-b211-cb03e327a486",
+      "client_id": "7b65bf2e-e13e-438d-afb4-28b6abff95b0",
+      "client_name": "Douglas",
+      "client_phone": "119888838066",
+      "professional_id": "6641f409-0b20-4d00-917e-fb11f15c2c6b",
+      "items": [
+        {
+          "id": "e0e85f0b-f3f0-436e-8100-99f32356c52e",
+          "professional_id": "6641f409-0b20-4d00-917e-fb11f15c2c6b",
+          "service_id": "35a147e1-afc0-4322-96f6-210575dcbc78",
+          "start": "2026-10-01T11:00:00Z",
+          "status": "waiting"
+        }
+      ],
+      "status": "waiting",
+      "quick": false,
+      "forced": false,
+      "coupon_code": null,
+      "discount": 0,
+      "notes": "",
+      "signal_paid": false,
+      "created_by": "7b65bf2e-e13e-438d-afb4-28b6abff95b0",
+      "created_at": "2026-09-26T20:22:18.508Z",
+      "studio_id": "studio-meu-id"
+    },
+    {
+      "id": "5767a90b-ad27-44fd-bbff-2e1666262435",
+      "booking_group_id": "52f5d577-e775-44ad-b211-cb03e327a486",
+      "client_id": "7b65bf2e-e13e-438d-afb4-28b6abff95b0",
+      "client_name": "Douglas",
+      "client_phone": "119888838066",
+      "professional_id": "5930fa2d-07d2-4558-ab1b-afbc4391d280",
+      "items": [
+        {
+          "id": "265a2575-e445-4e62-ade7-a831b4aa5870",
+          "professional_id": "5930fa2d-07d2-4558-ab1b-afbc4391d280",
+          "service_id": "25d6c83b-2553-4664-beae-8792305249ee",
+          "start": "2026-10-01T14:00:00Z",
+          "status": "waiting"
+        }
+      ],
+      "status": "waiting",
+      "quick": false,
+      "forced": false,
+      "coupon_code": null,
+      "discount": 0,
+      "notes": "",
+      "signal_paid": false,
+      "created_by": "7b65bf2e-e13e-438d-afb4-28b6abff95b0",
+      "created_at": "2026-09-26T20:22:18.508Z",
+      "studio_id": "studio-meu-id"
+    },
+    {
+      "id": "485a7be9-08a4-48c9-a1b8-b4572f93b1db",
+      "booking_group_id": "9d93254a-c7c9-4090-b12b-873fc67abebb",
+      "client_id": "1d507fdd-aeed-41d1-a2f3-aff6090c43bf",
+      "client_name": "Douglas",
+      "client_phone": "119888887641",
+      "professional_id": "5309b228-ebf3-47d0-ba5a-8f125a939278",
+      "items": [
+        {
+          "id": "9fa750e1-da16-4ca5-b59e-a97f639a869b",
+          "professional_id": "5309b228-ebf3-47d0-ba5a-8f125a939278",
+          "service_id": "bca77be3-338b-4d6f-b13d-d376e174a438",
+          "start": "2026-10-01T10:00:00Z",
+          "status": "waiting"
+        }
+      ],
+      "status": "waiting",
+      "quick": false,
+      "forced": false,
+      "coupon_code": null,
+      "discount": 0,
+      "notes": "",
+      "signal_paid": false,
+      "created_by": "1d507fdd-aeed-41d1-a2f3-aff6090c43bf",
+      "created_at": "2026-09-26T20:23:08.154Z",
+      "studio_id": "studio-meu-id"
+    },
+    {
+      "id": "a62d81fe-e328-4889-8dc0-c83071c1a9f9",
+      "booking_group_id": "9d93254a-c7c9-4090-b12b-873fc67abebb",
+      "client_id": "1d507fdd-aeed-41d1-a2f3-aff6090c43bf",
+      "client_name": "Douglas",
+      "client_phone": "119888887641",
+      "professional_id": "7f09214d-54ca-4649-a49f-970ecdc001f8",
+      "items": [
+        {
+          "id": "ea9f4768-b5e0-4b4a-bd51-19cabb278cec",
+          "professional_id": "7f09214d-54ca-4649-a49f-970ecdc001f8",
+          "service_id": "6aca5f79-04a4-4073-ac89-a7a7d180d63a",
+          "start": "2026-10-01T11:00:00Z",
+          "status": "waiting"
+        }
+      ],
+      "status": "waiting",
+      "quick": false,
+      "forced": false,
+      "coupon_code": null,
+      "discount": 0,
+      "notes": "",
+      "signal_paid": false,
+      "created_by": "1d507fdd-aeed-41d1-a2f3-aff6090c43bf",
+      "created_at": "2026-09-26T20:23:08.155Z",
+      "studio_id": "studio-meu-id"
+    },
+    {
+      "id": "9216d9ad-7fad-496f-b22a-6691affe3e2e",
+      "booking_group_id": "9d93254a-c7c9-4090-b12b-873fc67abebb",
+      "client_id": "1d507fdd-aeed-41d1-a2f3-aff6090c43bf",
+      "client_name": "Douglas",
+      "client_phone": "119888887641",
+      "professional_id": "8ef430f8-9b13-4df5-ac18-dfcf3197f96a",
+      "items": [
+        {
+          "id": "2008e22f-7864-440a-b91f-1f8fc051493a",
+          "professional_id": "8ef430f8-9b13-4df5-ac18-dfcf3197f96a",
+          "service_id": "abf4fc84-cec7-4e97-a383-6e8186e1a535",
+          "start": "2026-10-01T14:00:00Z",
+          "status": "waiting"
+        }
+      ],
+      "status": "waiting",
+      "quick": false,
+      "forced": false,
+      "coupon_code": null,
+      "discount": 0,
+      "notes": "",
+      "signal_paid": false,
+      "created_by": "1d507fdd-aeed-41d1-a2f3-aff6090c43bf",
+      "created_at": "2026-09-26T20:23:08.156Z",
+      "studio_id": "studio-meu-id"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "5021bee9-f615-4c3f-9a5b-373a603acfbd",
+      "user_id": "744e87aa-97b4-456f-9da8-cf59362337bc",
+      "title": "Nova solicitação de agendamento",
+      "body": "Cliente Douglas agendou para 01/10/2026 às 07:00.",
+      "appointment_id": "54de28fd-dd00-4e90-b899-d1756966b5b8",
+      "read": false,
+      "created_at": "2026-09-26T20:21:36.527Z",
+      "studio_id": "default-studio"
+    },
+    {
+      "id": "3180baf8-4d64-4c48-83d2-afd436dbe9a0",
+      "user_id": "041632b3-7719-4369-94b8-006626285783",
+      "title": "Nova solicitação de agendamento",
+      "body": "Cliente Douglas agendou para 01/10/2026 às 08:00.",
+      "appointment_id": "54de28fd-dd00-4e90-b899-d1756966b5b8",
+      "read": false,
+      "created_at": "2026-09-26T20:21:36.527Z",
+      "studio_id": "default-studio"
+    },
+    {
+      "id": "d348d8e2-534e-4a9c-9baa-3d6cdf5d4018",
+      "user_id": "b1464b54-37b4-45e3-be07-91510e67c731",
+      "title": "Nova solicitação de agendamento",
+      "body": "Cliente Douglas agendou para 01/10/2026 às 11:00.",
+      "appointment_id": "54de28fd-dd00-4e90-b899-d1756966b5b8",
+      "read": false,
+      "created_at": "2026-09-26T20:21:36.527Z",
+      "studio_id": "default-studio"
+    },
+    {
+      "id": "4f3632f1-a51d-413a-8c5a-fb4ada366f77",
+      "user_id": "f0bb9bdf-d31e-4b5e-a085-0121cf67021b",
+      "title": "Nova solicitação de agendamento",
+      "body": "Cliente Douglas agendou procedimento para 01/10/2026 às 07:00.",
+      "appointment_id": "5449bfcf-ed32-447f-908d-102f6fcad7fb",
+      "read": false,
+      "created_at": "2026-09-26T20:21:51.414Z",
+      "studio_id": "default-studio"
+    },
+    {
+      "id": "b7a69efd-6ef6-4e22-8582-3fbcec6e8a27",
+      "user_id": "f5f0d015-90d6-4b76-bb4a-14f5c1f16555",
+      "title": "Nova solicitação de agendamento",
+      "body": "Cliente Douglas agendou procedimento para 01/10/2026 às 08:00.",
+      "appointment_id": "5c2b1fd7-3fab-4641-b64d-80db0b1e964f",
+      "read": false,
+      "created_at": "2026-09-26T20:21:51.414Z",
+      "studio_id": "default-studio"
+    },
+    {
+      "id": "6f8d1062-72e6-4747-b545-1a30a4b32dfb",
+      "user_id": "678d88e2-aa65-4fc4-ab05-eec974cf61ec",
+      "title": "Nova solicitação de agendamento",
+      "body": "Cliente Douglas agendou procedimento para 01/10/2026 às 11:00.",
+      "appointment_id": "eedc81e9-5da1-4622-87bf-f2c00ae39735",
+      "read": false,
+      "created_at": "2026-09-26T20:21:51.414Z",
+      "studio_id": "default-studio"
+    },
+    {
+      "id": "0bf23d4b-2526-47a4-a122-6081f1822309",
+      "user_id": "3a9a0876-b719-4d59-8186-5ad536754d0b",
+      "title": "Nova solicitação de agendamento",
+      "body": "Cliente Douglas agendou Manicure para 01/10/2026 às 07:00.",
+      "appointment_id": "8b5a15ff-5de1-4686-8bdd-4a2fc6a23376",
+      "read": false,
+      "created_at": "2026-09-26T20:22:10.774Z",
+      "studio_id": "studio-meu-id"
+    },
+    {
+      "id": "b21a97b4-4369-46f2-b667-9051e0fc1365",
+      "user_id": "78ed02ce-567c-4c55-896c-244d04b2561d",
+      "title": "Nova solicitação de agendamento",
+      "body": "Cliente Douglas agendou Corte para 01/10/2026 às 08:00.",
+      "appointment_id": "2bec7973-274a-4fa6-9ab8-632c9b6395cf",
+      "read": false,
+      "created_at": "2026-09-26T20:22:10.774Z",
+      "studio_id": "studio-meu-id"
+    },
+    {
+      "id": "1896b005-7369-461a-9d7c-c19cf637cac6",
+      "user_id": "eddf3e90-41c0-4beb-a965-0c6cb40e0bc7",
+      "title": "Nova solicitação de agendamento",
+      "body": "Cliente Douglas agendou Cílios para 01/10/2026 às 11:00.",
+      "appointment_id": "5f9b44ec-4c4b-4604-a72d-793568459074",
+      "read": false,
+      "created_at": "2026-09-26T20:22:10.775Z",
+      "studio_id": "studio-meu-id"
+    },
+    {
+      "id": "f74bcfdc-f6ca-4b92-8b6d-746422fe302d",
+      "user_id": "1781e96a-80db-46da-a2d7-1b174e60b3e4",
+      "title": "Nova solicitação de agendamento",
+      "body": "Cliente Douglas agendou Manicure para 01/10/2026 às 07:00.",
+      "appointment_id": "fb158877-4daf-491c-8b04-dd93458190e0",
+      "read": false,
+      "created_at": "2026-09-26T20:22:18.508Z",
+      "studio_id": "studio-meu-id"
+    },
+    {
+      "id": "2adcbd5d-e4ce-4c9b-b816-81ee4e448a9e",
+      "user_id": "6641f409-0b20-4d00-917e-fb11f15c2c6b",
+      "title": "Nova solicitação de agendamento",
+      "body": "Cliente Douglas agendou Corte para 01/10/2026 às 08:00.",
+      "appointment_id": "52bffdb7-6115-495d-b3c5-57c53a0a1b18",
+      "read": false,
+      "created_at": "2026-09-26T20:22:18.508Z",
+      "studio_id": "studio-meu-id"
+    },
+    {
+      "id": "81af4d45-b802-4981-b0bd-c52912811d5c",
+      "user_id": "5930fa2d-07d2-4558-ab1b-afbc4391d280",
+      "title": "Nova solicitação de agendamento",
+      "body": "Cliente Douglas agendou Cílios para 01/10/2026 às 11:00.",
+      "appointment_id": "5767a90b-ad27-44fd-bbff-2e1666262435",
+      "read": false,
+      "created_at": "2026-09-26T20:22:18.508Z",
+      "studio_id": "studio-meu-id"
+    },
+    {
+      "id": "cec9e9d5-ca34-4967-9707-f997cfa3dff6",
+      "user_id": "5309b228-ebf3-47d0-ba5a-8f125a939278",
+      "title": "Nova solicitação de agendamento",
+      "body": "Cliente Douglas agendou Manicure para 01/10/2026 às 07:00.",
+      "appointment_id": "485a7be9-08a4-48c9-a1b8-b4572f93b1db",
+      "read": false,
+      "created_at": "2026-09-26T20:23:08.155Z",
+      "studio_id": "studio-meu-id"
+    },
+    {
+      "id": "b494c68e-99c4-429f-b140-7c2492974f9a",
+      "user_id": "7f09214d-54ca-4649-a49f-970ecdc001f8",
+      "title": "Nova solicitação de agendamento",
+      "body": "Cliente Douglas agendou Corte para 01/10/2026 às 08:00.",
+      "appointment_id": "a62d81fe-e328-4889-8dc0-c83071c1a9f9",
+      "read": false,
+      "created_at": "2026-09-26T20:23:08.155Z",
+      "studio_id": "studio-meu-id"
+    },
+    {
+      "id": "49bde89a-36dc-440f-8caa-75eb9e0ebde5",
+      "user_id": "8ef430f8-9b13-4df5-ac18-dfcf3197f96a",
+      "title": "Nova solicitação de agendamento",
+      "body": "Cliente Douglas agendou Cílios para 01/10/2026 às 11:00.",
+      "appointment_id": "9216d9ad-7fad-496f-b22a-6691affe3e2e",
+      "read": false,
+      "created_at": "2026-09-26T20:23:08.156Z",
+      "studio_id": "studio-meu-id"
+    }
+  ],
+  "login_events": [
+    {
+      "id": "d875c8db-6b10-44c5-b561-90621ea3ea3e",
+      "user_id": "user-super-admin-id",
+      "success": true,
+      "ip": "127.0.0.1",
+      "user_agent": "curl/7.88.1",
+      "at": "2026-09-26T20:10:50.106Z"
+    },
+    {
+      "id": "8680dd16-5ee5-4e0b-a5c3-6b719355e940",
+      "user_id": "user-manager-meu-id",
+      "success": true,
+      "ip": "127.0.0.1",
+      "user_agent": "curl/7.88.1",
+      "at": "2026-09-26T20:10:51.950Z"
+    },
+    {
+      "id": "888a728f-303c-4411-9e49-8c80a7348240",
+      "user_id": "user-manager-meu-id",
+      "success": true,
+      "ip": "127.0.0.1",
+      "user_agent": "curl/7.88.1",
+      "at": "2026-09-26T20:21:14.691Z"
+    },
+    {
+      "id": "32d14ba5-2567-493d-988f-91cb61491f06",
+      "user_id": "user-manager-meu-id",
+      "success": true,
+      "ip": "127.0.0.1",
+      "user_agent": "node",
+      "at": "2026-09-26T20:21:36.057Z"
+    },
+    {
+      "id": "03ab0001-68e3-450d-81d8-f20a8621193e",
+      "user_id": "2483cff6-424e-4824-b117-068c32f968fa",
+      "success": true,
+      "ip": "127.0.0.1",
+      "user_agent": "node",
+      "at": "2026-09-26T20:21:36.516Z"
+    },
+    {
+      "id": "5150d1a6-783a-45e4-bb4b-2141a0dc642e",
+      "user_id": "user-manager-meu-id",
+      "success": true,
+      "ip": "127.0.0.1",
+      "user_agent": "node",
+      "at": "2026-09-26T20:21:44.349Z"
+    },
+    {
+      "id": "ccedc087-c60f-4372-bcb6-ad658a142178",
+      "user_id": "user-manager-meu-id",
+      "success": true,
+      "ip": "127.0.0.1",
+      "user_agent": "node",
+      "at": "2026-09-26T20:21:50.912Z"
+    },
+    {
+      "id": "2d58ef59-ee38-4da8-a660-6ca208d559d3",
+      "user_id": "3ec50b51-e844-4768-b5c5-5bb9e63dc170",
+      "success": true,
+      "ip": "127.0.0.1",
+      "user_agent": "node",
+      "at": "2026-09-26T20:21:51.405Z"
+    },
+    {
+      "id": "efc8a83c-9297-43ad-ba8c-a77f49d0d03b",
+      "user_id": "user-manager-meu-id",
+      "success": true,
+      "ip": "127.0.0.1",
+      "user_agent": "node",
+      "at": "2026-09-26T20:22:10.251Z"
+    },
+    {
+      "id": "c7b9a903-f6bc-4056-85df-bcfeebb724b8",
+      "user_id": "11fb6889-5733-4392-a65e-859e5b710adf",
+      "success": true,
+      "ip": "127.0.0.1",
+      "user_agent": "node",
+      "at": "2026-09-26T20:22:10.763Z"
+    },
+    {
+      "id": "42f87601-97c8-416c-abec-436cae1e86bd",
+      "user_id": "user-manager-meu-id",
+      "success": true,
+      "ip": "127.0.0.1",
+      "user_agent": "node",
+      "at": "2026-09-26T20:22:18.035Z"
+    },
+    {
+      "id": "8b3f7e6c-5a76-4733-ab08-9c132dfb1a98",
+      "user_id": "7b65bf2e-e13e-438d-afb4-28b6abff95b0",
+      "success": true,
+      "ip": "127.0.0.1",
+      "user_agent": "node",
+      "at": "2026-09-26T20:22:18.498Z"
+    },
+    {
+      "id": "06da7ee9-2e10-4723-8c9f-f0322e4d96ad",
+      "user_id": "user-manager-meu-id",
+      "success": true,
+      "ip": "127.0.0.1",
+      "user_agent": "node",
+      "at": "2026-09-26T20:23:07.595Z"
+    },
+    {
+      "id": "722816c5-5423-494b-b043-b902cf3466d9",
+      "user_id": "1d507fdd-aeed-41d1-a2f3-aff6090c43bf",
+      "success": true,
+      "ip": "127.0.0.1",
+      "user_agent": "node",
+      "at": "2026-09-26T20:23:08.145Z"
+    },
+    {
+      "id": "76d46700-d501-4dda-9553-f1edb66b5b61",
+      "user_id": "user-super-admin-id",
+      "success": true,
+      "ip": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "at": "2026-09-26T20:23:58.841Z"
+    },
+    {
+      "id": "0b9279e4-12d2-40a1-af1e-ca01b8097dfe",
+      "user_id": "user-super-admin-doug-id",
+      "success": true,
+      "ip": "127.0.0.1",
+      "user_agent": "node",
+      "at": "2026-09-26T20:29:53.570Z"
+    },
+    {
+      "id": "3bd8cbea-30fa-4e04-8bc8-6c20aeb2aecc",
+      "user_id": "005c9070-5f8f-4e02-828a-e807523c2b2d",
+      "success": true,
+      "ip": "127.0.0.1",
+      "user_agent": "node",
+      "at": "2026-09-26T20:29:53.854Z"
+    },
+    {
+      "id": "d75d7f39-281c-4105-b65d-89ba18b8d807",
+      "user_id": "user-super-admin-doug-id",
+      "success": true,
+      "ip": "127.0.0.1",
+      "user_agent": "node",
+      "at": "2026-09-26T20:30:37.339Z"
+    },
+    {
+      "id": "ea96e3b4-c788-4cb0-93f7-39f22adeec6b",
+      "user_id": "ab3fe822-bf02-4070-9765-8fc35b421c8a",
+      "success": true,
+      "ip": "127.0.0.1",
+      "user_agent": "node",
+      "at": "2026-09-26T20:30:37.617Z"
+    }
+  ],
+  "password_reset_tokens": []
+}
